@@ -1,0 +1,14 @@
+[run]
+omit=
+    manage.py
+    app/config.py
+    *.sh
+    *.init
+    */migrations/*
+    */tests/*
+
+[report]
+include =
+    show_missing = True
+    skip_covered = True
+    ${TRAVIS_BUILD_DIR}/*
